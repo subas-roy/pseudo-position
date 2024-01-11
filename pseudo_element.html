@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo Element</title>
+  <style>
+    h3::after {
+      content: '.pdf';
+      color: red;
+      background-color: violet;
+      font-size: 10px;
+    }
+    h3::before {
+      content: 'start';
+      color: red;
+      background-color: aqua;
+      font-size: 10px;
+    }
+    p::first-letter {
+      font-size: 2em;
+    }
+    ::selection {
+      background-color: blueviolet;
+    }
+  </style>
+</head>
+<body>
+  <h3>Heading 1</h3>
+  <h3>Heading 2</h3>
+  <h3>Heading 3</h3>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempore suscipit accusamus magnam id. Veritatis ea qui soluta pariatur quia!</p>
+  <p>Officiis quisquam veniam accusamus corporis alias? A veritatis rem sunt ducimus, placeat veniam doloribus beatae minus consectetur corrupti omnis eaque?</p>
+  <p>Nulla deleniti aspernatur enim maiores recusandae expedita nostrum harum, minima eligendi necessitatibus obcaecati eveniet ipsam doloribus inventore autem. Expedita, quia.</p>
+</body>
+</html>
